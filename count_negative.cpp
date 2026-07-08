@@ -3,6 +3,7 @@
 #include<iostream>
 using namespace std;
 void sort(int &i,int &j){
+//this function will swap the values of mat[i][j] and mat[i][k] by row wise 
     int temp = i;
     i=j;
     j=temp;
